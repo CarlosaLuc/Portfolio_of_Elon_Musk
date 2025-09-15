@@ -1,0 +1,35 @@
+* {
+    background-color:#17223B;
+    color: white;
+}
+
+a {
+    color: #8D0240;
+}
+
+img {
+    width: 100%;
+}
+
+header > h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+header > p {
+    font-size: 30px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+.nav_item {
+    font-size: 20px;
+    display: inline-block;
+}
+
+.about_section > img {
+    width: 70%;
+}
