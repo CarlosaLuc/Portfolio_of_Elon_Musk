@@ -1,5 +1,5 @@
 * {
-    background-color:#17223B;
+    background-color:#171C2D;
     color: white;
 }
 
@@ -12,28 +12,17 @@ img {
     width: 100%;
 }
 
-
-header {
-    height: 300px;
-}
-
-figure {
-    width: 100%;
-}
-
-figure > img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    box-sizing: border-box;
-    opacity: 0.8;
-
+#cover {
+    background-image: url('https://cdn2.psychologytoday.com/assets/styles/manual_crop_4_3_1200x900/public/field_blog_entry_images/2023-09/EMUSKTask.jpg?itok=9ONIFiJC');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 33em;
 }
 
 #blend {
-    position: absolute;
-    top: 43%;
-    left: 12%;
+    position: relative;
+    text-align: center;
+    top: 70%;
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 5em;
     font-weight: bold;
@@ -41,7 +30,7 @@ figure > img {
 }
 
 header > p {
-    margin-top: 60%;
+    margin-top: 2%;
     font-size: 30px;
     text-align: center;
 }
@@ -52,12 +41,12 @@ nav > ul {
     margin:0;
     padding:0;
     overflow: hidden;
-    background-color: #8D0240;
+    background-color: #E37239;
 }
 
 nav > ul > li {
+    width: 25%;
     float: left;
-    margin-left: 8%;
 
 }
 
@@ -67,11 +56,52 @@ nav > ul > li > a {
     font-size: 20px;    
     padding: 14px 20px;
     text-decoration: none;
-    background-color: #8D0240;
+    background-color: #E37239;
     text-align: center;
 }
 
+a:hover {
+    background-color: #EAB56F;
+}
 
-.about_section > img {
-    width: 70%;
+
+ h2 {
+    margin-top: 5%;
+    font-size: 3em;
+}
+    
+#about_section > img {
+    float: left;
+    width: 30em;
+    margin-right: 5%;
+}
+
+#about_section > p {
+    display: block;
+    margin: 5%;
+    margin-bottom: 8%;
+    font-size: 1.3em;
+}
+
+#about_section > ul {
+    float: none;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 2%;
+    margin: 2%;
+    background-color: #254252;
+}
+
+#about_section > ul > div {
+    text-align: left;
+    background-color:#254252;
+}
+
+#about_section > ul > div > li {
+    background-color:#254252;
+}
+
+#left_item, #right_item {
+    float: left;
 }
