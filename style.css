@@ -81,6 +81,7 @@ a:hover {
     margin: 5%;
     margin-bottom: 8%;
     font-size: 1.3em;
+    float: none;
 }
 
 #about_section > ul {
@@ -100,8 +101,6 @@ a:hover {
 
 #about_section > ul > div > li {
     background-color:#254252;
-}
-
-#left_item, #right_item {
     float: left;
+    margin-left: 35%;
 }
