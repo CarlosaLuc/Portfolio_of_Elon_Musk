@@ -1,106 +1,148 @@
-* {
-    background-color:#171C2D;
-    color: white;
-}
-
-a {
-    color: #8D0240;
-}
-
-
-img {
-    width: 100%;
-}
-
-#cover {
-    background-image: url('https://cdn2.psychologytoday.com/assets/styles/manual_crop_4_3_1200x900/public/field_blog_entry_images/2023-09/EMUSKTask.jpg?itok=9ONIFiJC');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 33em;
-}
-
-#blend {
-    position: relative;
-    text-align: center;
-    top: 70%;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 5em;
-    font-weight: bold;
-    background-color: rgba(0,0,0,0);
-}
-
-header > p {
-    margin-top: 2%;
-    font-size: 30px;
-    text-align: center;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Site</title>
+  <link href="styles.css" rel="stylesheet" />
+</head>
 
 
-nav > ul {
-    list-style-type: none;
-    margin:0;
-    padding:0;
-    overflow: hidden;
-    background-color: #E37239;
-}
-
-nav > ul > li {
-    width: 25%;
-    float: left;
-
-}
-
-nav > ul > li > a {
-    display: block;
-    color: white;
-    font-size: 20px;    
-    padding: 14px 20px;
-    text-decoration: none;
-    background-color: #E37239;
-    text-align: center;
-}
-
-a:hover {
-    background-color: #EAB56F;
-}
-
-
- h2 {
-    margin-top: 5%;
-    font-size: 3em;
-}
-    
-#about_section > img {
-    float: left;
-    width: 30em;
-    margin-right: 5%;
-}
-
-#about_section > p {
-    display: block;
-    margin: 5%;
-    margin-bottom: 8%;
-    font-size: 1.3em;
-    float: none;
-}
-
-#about_section > ul {
-    float: none;
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    padding: 2%;
-    margin: 2%;
-    background-color: #254252;
-}
-
-#about_section > ul > div {
-    text-align: left;
-    background-color:#254252;
-}
-
-#about_section > ul > div > li {
-    background-color:#254252;
-    float: left;
-    margin-left: 35%;
-}
+<body>
+  <header>
+      <div id='cover'>
+          <h1 id='blend'>Elon Reeve Musk</h1>
+      </div>
+      <p>Welcome to my personal portfolio!</p>
+      <nav>
+          <ul>
+            <li><a id="nav_item" href="#about_section">About</a></li>
+            <li><a id="nav_item" href="#life_section">Early Life</a></li>
+            <li><a id="nav_item" href="#business_section">Business Career</a></li>
+            <li><a id="nav_item" href="#contact_section">Contact</a></li>
+          </ul>
+      </nav>
+  </header>
+  
+  <main>
+      <section id="about_section">
+          <h2>About</h2>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Elon_Musk_2015.jpg/330px-Elon_Musk_2015.jpg" alt="my photo">
+          <p>Hi, my name is Elon Musk. I am a South African–born entrepreneur and engineer, now a U.S. citizen. I don't think it's necessary for me to remind you how famous I am. I founded and led companies such as Tesla, SpaceX, Neuralink, and The Boring Company. You can see me as the MOST wealthy guy on this planet.</p>
+          <ul>
+              <div id='left_item'>
+              <li>DOB: June 28th, 1971</li>
+              <li>Gender: Male</li>
+              <li>Marital Status: Single </li>
+              </div>
+              <div id='right_item'>
+              <li>Nationality: South African, Canadian, American</li>
+              <li>Education: University of Pennsynvania (BA, BS)</li>
+              <li>Networth: 480 billion USD (2025)</li>
+              </div>
+          </ul>
+      </section>
+      
+      <section id = "life_section">
+          <h2>Early Life</h2>
+          <img id = "pic_blastar" src="https://m.media-amazon.com/images/M/MV5BYmE1OTA1YmQtOTIwYS00OTBjLTk3N2ItMzEzMmNiNmRiMjE5XkEyXkFqcGc@._V1_.jpg">
+          <p>I was born in Pretoria, South Africa. From an early age, I showed a strong interest in technology, science, and imagination. I spent much of his childhood reading books—ranging from science fiction to encyclopedias—and teaching myself how things worked.At the age of 12, I developed and sold my first computer game, <a src="https://ojaswy.github.io/Blastar/">Blastar</a>(You can access the web version by clicking the link), after teaching myself programming on a Commodore VIC-20.</p>
+          <br>
+          <p>I attended Waterkloof House Preparatory School and later Pretoria Boys High School, where I was known more for my quiet intellect than for fitting in socially. At 17, I left South Africa to avoid mandatory military service under apartheid and pursued education abroad, first in Canada at Queen’s University and later transferring to the University of Pennsylvania in the United States.<br><br>These early years built the foundation of my mindset and a vision of the future far larger than my immediate surroundings.</p>
+      </section>
+      
+      <section id="business_section">
+          <h2>Business Career</h2>
+          <div id="zip2_div">
+              <h3>Zip2 (1995-1999)</h3>
+              <img src="https://i.namu.wiki/i/zmE295H4oZQ7To6qIhvY7WPJImXOdFxL8vIbjwgS3R2onGSKoxjWeYpLjzMdfiHYOh8iO-i4P0l_tKBzElFkWg.webp" alt="image of the company">
+              <p>In 1995, I co-founded Zip2 with my brother, Kimbal. The company built online city guides for newspapers, helping them transition into the digital era. At a time when most people didn’t even see the value of the internet, we provided mapping and business directory services that helped local media modernize. Eventually, Compaq acquired Zip2 for nearly $300 million. That first success gave me the capital and confidence to pursue much larger ambitions.</p>
+          </div>
+          <div id="xCom_payPal_div">
+              <h3>X.com & PayPal (1999-2002)</h3>
+              <img src="https://www.malwarebytes.com/wp-content/uploads/sites/2/2015/05/paypal.png" alt="the logo of PayPal">
+              <ul>
+                  <li>
+                      <a href="https://www.paypal.com/ca/home">Visit PayPal home page</a>
+                  </li>
+                  <li>
+                      <a href="https://www.paypal.com/us/digital-wallet/how-paypal-works">How PayPal works</a>
+                  </li>
+                  <li>
+                      <a href="https://www.paypal.com/us/cshelp/contact-us">Contact us</a>
+                  </li>
+              </ul>
+              <p>Soon after, I co-founded X.com, an online financial services company that later became known as PayPal after a merger. Our goal was to simplify money transfers online—something that was incredibly clunky and untrusted at the time. PayPal revolutionized digital payments, making it secure and easy for individuals and businesses to send money across the globe. When eBay acquired PayPal in 2002 for $1.5 billion, it validated the idea that online finance could transform commerce.</p>
+          </div>
+          <div id="SpaceX_div">
+              <h3>SpaceX (2002-present)</h3>
+              <img src="https://www.spacex.com/assets/images/mission/locations/kennedy.jpg" alt="a photo of one of SpaceX launches">
+              <ul>
+                  <li>
+                      <a href="https://www.spacex.com/">Visit SpaceX home page</a>
+                  </li>
+                  <li>
+                      <a href="https://www.spacex.com/launches">Launches</a>
+                  </li>
+                  <li>
+                      <a href="https://www.spacex.com/careers">Find your future careers</a>
+                  </li>
+                  <li>
+                      <a href="https://shop.spacex.com/">Official SpaceX store</a>
+                  </li>
+              </ul>
+              <p>In 2002, I founded SpaceX with a simple but audacious goal: to make life multi-planetary. I believed that if humanity wanted to survive long-term, we needed to expand beyond Earth. SpaceX started with small rockets like Falcon 1, and over time, we built the Falcon 9, Falcon Heavy, and the Dragon spacecraft. By creating reusable rocket technology, we drastically reduced the cost of space travel. Today, SpaceX launches satellites, supplies the International Space Station, and is developing Starship to carry humans to Mars.</p>
+          </div>
+          <div id="tesla_div">
+              <h3>Tesla (2004-present)</h3>
+              <a href="https://www.tesla.com/">Visit Tesla home page</a>
+              <img src="https://i.ebayimg.com/images/g/8oMAAOSwb39bDbfw/s-l1200.jpg" alt="a logo of Tesla">
+              <p>I joined Tesla in 2004, a year after it was founded, because I saw the potential to accelerate the world’s transition to sustainable energy. Many doubted electric vehicles could be practical, but we proved otherwise. Starting with the Roadster and moving on to the Model S, Model 3, and beyond, Tesla redefined the automotive industry. Beyond cars, we expanded into renewable energy and storage solutions like Powerwall and Solar Roof. Tesla demonstrated that clean energy could be both high-performing and commercially viable.</p>
+          </div>
+          <div id="solar_city_div">
+              <h3>SolarCity (2006-2016)</h3>
+              <a href="https://neuralink.com/">Visit Neuralink home page</a>
+              <img src="https://www.thestreet.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTY4NjQ3MjIzMzUyMzA1NTU5/teslas-solar-city-units-accounting-eyed-by-sec---report.jpg" alt="a photo of Solar City">
+              <p>In 2006, I helped create SolarCity, a company focused on solar energy services. Our mission was to make solar power accessible to households and businesses across America. By providing affordable installation and financing options, SolarCity made it possible for families to lower their energy bills while reducing reliance on fossil fuels. Eventually, Tesla acquired SolarCity and integrated it into our broader clean energy ecosystem.</p>
+              </div>
+              <div id="neuralink_div">
+                  <h3>Neuralink (2016-present)</h3>
+                  <a href='https://neuralink.com/'>Visit the Neuralink home page</a>
+                  <img src='https://voices.uchicago.edu/triplehelix/files/2025/01/Neuralink.jpg' alt= "a logo of Neuralink">
+                  <p>In 2016, I co-founded Neuralink, a neurotechnology company working on brain-computer interfaces. My vision has always been that humans need to merge with AI to remain relevant in the future. Neuralink’s work could help people with paralysis regain movement, improve treatment for neurological disorders, and eventually open the door to symbiosis between humans and machines. This company represents one of the most forward-looking aspects of my career—pushing the boundary of what it means to be human.</p>
+              </div>
+              <div id="boring_div">
+                  <h3>The Broing Company (2016-present)</h3>
+                  <a href="https://www.boringcompany.com/">Visit the Boring Company home page</a>
+                  <img src="https://images.squarespace-cdn.com/content/v1/6063b0835f68896079d7d643/1618425121940-RFZWVRYAS817OMAAHKNU/IMG_5505+%281%29-2.jpg?format=2500w" alt="a photo depicting what the boring comapny does">
+                  <p>Also in 2016, I started The Boring Company as a way to rethink urban transportation. Traffic is one of the most frustrating aspects of modern cities, and my idea was to build underground tunnel systems to alleviate congestion. The company has developed test tunnels and the Las Vegas Loop, proving that rapid, point-to-point underground transit could become a viable alternative to traditional infrastructure.</p>
+              </div>
+      </section>
+      
+  </main>
+  <footer>
+       <section id = "contact_section">
+          <h2>Contact</h2>
+          <ul>
+              <li>Phone:<br>337-911-9672</li>
+              <li>Email:<br>elon.musk@gmail.com</li>
+              <li>Address:<br>Corporate Secretary, Tesla, Inc. 3500 Deer Creek Road, Palo Alto, CA 94304 United States</li>
+              <li>Twitter:<br><a href="https://x.com/elonmusk">@elonmusk</a></li>
+          </ul>
+          <form>
+              <label for = 'fname'>First Name: </label>
+              <input type = 'text' id='fname'>
+              <br>
+              <label for = 'lname'>Last Name: </label>
+              <input for = 'lname' id='lname'>
+              <br>
+              <label for = 'phonenum'>Phone Number: </label>
+              <input type='Phone' id = 'phonenum'>
+              <br>
+              <label for = 'email'>Email: </label>
+              <input type = 'email' id='email'>
+          </form>
+      </section>
+  </footer>
+</body>
+</html>
